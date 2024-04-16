@@ -1,8 +1,9 @@
 use std::fs::File;
 use std::io::{self, Read};
+use aes::cipher::KeyInit;
 use aes::Aes256;
-use aes::block_cipher_trait::generic_array::GenericArray;
-use aes::block_cipher_trait::BlockCipher;
+use aes::block_cipher_trait::{BlockCipher, generic_array::GenericArray};
+use aes::cipher::BlockDecrypt;
 use reqwest::blocking::Client;
 use reqwest::StatusCode;
 use serde_json::json;
