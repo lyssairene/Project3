@@ -1,0 +1,5 @@
+C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/build/CMakeFiles/leveldb.dir
+C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/build/CMakeFiles/leveldbutil.dir
+C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/build/CMakeFiles/INSTALL.dir
+C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/build/CMakeFiles/ZERO_CHECK.dir

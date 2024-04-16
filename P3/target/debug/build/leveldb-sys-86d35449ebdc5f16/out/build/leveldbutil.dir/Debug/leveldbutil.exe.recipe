@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out\build\Debug\leveldbutil.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

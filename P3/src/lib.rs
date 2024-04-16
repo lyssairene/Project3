@@ -1,6 +1,5 @@
 use std::fs::File;
 use std::io::{self, Read};
-use walkdir::WalkDir;
 use aes::Aes256;
 use aes::block_cipher_trait::generic_array::GenericArray;
 use aes::block_cipher_trait::BlockCipher;

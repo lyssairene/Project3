@@ -1,0 +1,516 @@
+[build] Started
+[snappy] Building
+CMAKE_TOOLCHAIN_FILE_x86_64-pc-windows-msvc = None
+CMAKE_TOOLCHAIN_FILE_x86_64_pc_windows_msvc = None
+HOST_CMAKE_TOOLCHAIN_FILE = None
+CMAKE_TOOLCHAIN_FILE = None
+CMAKE_GENERATOR_x86_64-pc-windows-msvc = None
+CMAKE_GENERATOR_x86_64_pc_windows_msvc = None
+HOST_CMAKE_GENERATOR = None
+CMAKE_GENERATOR = None
+detected home dir change, cleaning out entire build directory
+CMAKE_PREFIX_PATH_x86_64-pc-windows-msvc = None
+CMAKE_PREFIX_PATH_x86_64_pc_windows_msvc = None
+HOST_CMAKE_PREFIX_PATH = None
+CMAKE_PREFIX_PATH = None
+CMAKE_x86_64-pc-windows-msvc = None
+CMAKE_x86_64_pc_windows_msvc = None
+HOST_CMAKE = None
+CMAKE = None
+running: "cmake" "C:\\Users\\smkea\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\leveldb-sys-2.0.9\\deps\\snappy-1.1.7" "-G" "Visual Studio 17 2022" "-Thost=x64" "-Ax64" "-DBUILD_SHARED_LIBS=OFF" "-DSNAPPY_BUILD_TESTS=OFF" "-DHAVE_LIBZ=OFF" "-DCMAKE_INSTALL_LIBDIR=C:\\Users\\smkea\\Documents\\GitHub\\Project3\\P3\\target\\debug\\build\\leveldb-sys-86d35449ebdc5f16\\out\\lib" "-DCMAKE_INSTALL_PREFIX=C:\\Users\\smkea\\Documents\\GitHub\\Project3\\P3\\target\\debug\\build\\leveldb-sys-86d35449ebdc5f16\\out" "-DCMAKE_C_FLAGS= -nologo -MD -Brepro" "-DCMAKE_C_FLAGS_DEBUG= -nologo -MD -Brepro" "-DCMAKE_CXX_FLAGS= -nologo -MD -Brepro" "-DCMAKE_CXX_FLAGS_DEBUG= -nologo -MD -Brepro" "-DCMAKE_ASM_FLAGS= -nologo -MD -Brepro" "-DCMAKE_ASM_FLAGS_DEBUG= -nologo -MD -Brepro" "-DCMAKE_BUILD_TYPE=Debug"
+-- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.22631.
+-- The C compiler identification is MSVC 19.39.33521.0
+-- The CXX compiler identification is MSVC 19.39.33521.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for byteswap.h
+-- Looking for byteswap.h - not found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for sys/endian.h
+-- Looking for sys/endian.h - not found
+-- Looking for sys/mman.h
+-- Looking for sys/mman.h - not found
+-- Looking for sys/resource.h
+-- Looking for sys/resource.h - not found
+-- Looking for sys/time.h
+-- Looking for sys/time.h - not found
+-- Looking for sys/uio.h
+-- Looking for sys/uio.h - not found
+-- Looking for unistd.h
+-- Looking for unistd.h - not found
+-- Looking for windows.h
+-- Looking for windows.h - found
+-- Looking for lzo1x_1_15_compress in lzo2
+-- Looking for lzo1x_1_15_compress in lzo2 - not found
+-- Performing Test HAVE_BUILTIN_EXPECT
+-- Performing Test HAVE_BUILTIN_EXPECT - Failed
+-- Performing Test HAVE_BUILTIN_CTZ
+-- Performing Test HAVE_BUILTIN_CTZ - Failed
+-- Looking for mmap
+-- Looking for mmap - not found
+-- Looking for sysconf
+-- Looking for sysconf - not found
+-- Configuring done (10.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/build
+running: "cmake" "--build" "." "--target" "install" "--config" "Debug" "--parallel" "16"
+MSBuild version 17.9.5+33de0b227 for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule C:/Users/smkea/.cargo/registry/src/index.crates.io-6f17d22bba15001f/leveldb-sys-2.0.9/deps/snappy-1.1.7/CMakeLists.txt
+  snappy-c.cc
+  snappy-sinksource.cc
+  snappy-stubs-internal.cc
+  snappy.cc
+  Generating Code...
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(833,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out\build\snappy.vcxproj]
+  (compiling source file '../../../../../../../../../../.cargo/registry/src/index.crates.io-6f17d22bba15001f/leveldb-sys-2.0.9/deps/snappy-1.1.7/snappy.cc')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(833,9):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\snappy-1.1.7\snappy.cc(1473,26):
+  	see reference to class template instantiation 'std::vector<snappy::SnappySinkAllocator::Datablock,std::allocator<snappy::SnappySinkAllocator::Datablock>>' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(870,23):
+  	while compiling class template member function 'void std::vector<snappy::SnappySinkAllocator::Datablock,std::allocator<snappy::SnappySinkAllocator::Datablock>>::push_back(const _Ty &)'
+          with
+          [
+              _Ty=snappy::SnappySinkAllocator::Datablock
+          ]
+  		C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\snappy-1.1.7\snappy.cc(1440,22):
+  		see the first reference to 'std::vector<snappy::SnappySinkAllocator::Datablock,std::allocator<snappy::SnappySinkAllocator::Datablock>>::push_back' in 'snappy::SnappySinkAllocator::Allocate'
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(871,9):
+  	see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<const _Ty&>(const _Ty &)' being compiled
+          with
+          [
+              _Ty=snappy::SnappySinkAllocator::Datablock
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(783,17):
+  	see reference to function template instantiation 'snappy::SnappySinkAllocator::Datablock *std::vector<snappy::SnappySinkAllocator::Datablock,std::allocator<snappy::SnappySinkAllocator::Datablock>>::_Emplace_reallocate<const _Ty&>(snappy::SnappySinkAllocator::Datablock *const ,const _Ty &)' being compiled
+          with
+          [
+              _Ty=snappy::SnappySinkAllocator::Datablock
+          ]
+  
+  snappy.vcxproj -> C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out\build\Debug\snappy.lib
+  Building Custom Rule C:/Users/smkea/.cargo/registry/src/index.crates.io-6f17d22bba15001f/leveldb-sys-2.0.9/deps/snappy-1.1.7/CMakeLists.txt
+  1>
+  -- Install configuration: "Debug"
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/lib/snappy.lib
+  -- Up-to-date: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/include/snappy-c.h
+  -- Up-to-date: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/include/snappy-sinksource.h
+  -- Up-to-date: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/include/snappy.h
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/include/snappy-stubs-public.h
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/lib/cmake/Snappy/SnappyTargets.cmake
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/lib/cmake/Snappy/SnappyTargets-debug.cmake
+  -- Up-to-date: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/lib/cmake/Snappy/SnappyConfig.cmake
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/lib/cmake/Snappy/SnappyConfigVersion.cmake
+cargo:root=C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out
+cargo:rustc-link-search=native=C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out\lib
+cargo:rustc-link-lib=static=snappy
+[leveldb] Building
+CMAKE_TOOLCHAIN_FILE_x86_64-pc-windows-msvc = None
+CMAKE_TOOLCHAIN_FILE_x86_64_pc_windows_msvc = None
+HOST_CMAKE_TOOLCHAIN_FILE = None
+CMAKE_TOOLCHAIN_FILE = None
+CMAKE_GENERATOR_x86_64-pc-windows-msvc = None
+CMAKE_GENERATOR_x86_64_pc_windows_msvc = None
+HOST_CMAKE_GENERATOR = None
+CMAKE_GENERATOR = None
+detected home dir change, cleaning out entire build directory
+CMAKE_PREFIX_PATH_x86_64-pc-windows-msvc = None
+CMAKE_PREFIX_PATH_x86_64_pc_windows_msvc = None
+HOST_CMAKE_PREFIX_PATH = None
+CMAKE_PREFIX_PATH = None
+CMAKE_x86_64-pc-windows-msvc = None
+CMAKE_x86_64_pc_windows_msvc = None
+HOST_CMAKE = None
+CMAKE = None
+running: "cmake" "C:\\Users\\smkea\\.cargo\\registry\\src\\index.crates.io-6f17d22bba15001f\\leveldb-sys-2.0.9\\deps\\leveldb-1.22" "-G" "Visual Studio 17 2022" "-Thost=x64" "-Ax64" "-DLEVELDB_BUILD_TESTS=OFF" "-DLEVELDB_BUILD_BENCHMARKS=OFF" "-DCMAKE_INSTALL_LIBDIR=C:\\Users\\smkea\\Documents\\GitHub\\Project3\\P3\\target\\debug\\build\\leveldb-sys-86d35449ebdc5f16\\out\\lib" "-DHAVE_SNAPPY=ON" "-DCMAKE_INSTALL_PREFIX=C:\\Users\\smkea\\Documents\\GitHub\\Project3\\P3\\target\\debug\\build\\leveldb-sys-86d35449ebdc5f16\\out" "-DCMAKE_C_FLAGS= -IC:\\Users\\smkea\\Documents\\GitHub\\Project3\\P3\\target\\debug\\build\\leveldb-sys-86d35449ebdc5f16\\out\\include -nologo -MD -Brepro" "-DCMAKE_C_FLAGS_DEBUG= -IC:\\Users\\smkea\\Documents\\GitHub\\Project3\\P3\\target\\debug\\build\\leveldb-sys-86d35449ebdc5f16\\out\\include -nologo -MD -Brepro" "-DCMAKE_CXX_FLAGS= -IC:\\Users\\smkea\\Documents\\GitHub\\Project3\\P3\\target\\debug\\build\\leveldb-sys-86d35449ebdc5f16\\out\\include -nologo -MD -Brepro" "-DCMAKE_CXX_FLAGS_DEBUG= -IC:\\Users\\smkea\\Documents\\GitHub\\Project3\\P3\\target\\debug\\build\\leveldb-sys-86d35449ebdc5f16\\out\\include -nologo -MD -Brepro" "-DCMAKE_ASM_FLAGS= -nologo -MD -Brepro" "-DCMAKE_ASM_FLAGS_DEBUG= -nologo -MD -Brepro" "-DCMAKE_BUILD_TYPE=Debug"
+-- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.22631.
+-- The C compiler identification is MSVC 19.39.33521.0
+-- The CXX compiler identification is MSVC 19.39.33521.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for unistd.h
+-- Looking for unistd.h - not found
+-- Looking for crc32c_value in crc32c
+-- Looking for crc32c_value in crc32c - not found
+-- Looking for malloc in tcmalloc
+-- Looking for malloc in tcmalloc - not found
+-- Looking for fdatasync
+-- Looking for fdatasync - not found
+-- Looking for F_FULLFSYNC
+-- Looking for F_FULLFSYNC - not found
+-- Performing Test HAVE_CLANG_THREAD_SAFETY
+-- Performing Test HAVE_CLANG_THREAD_SAFETY - Failed
+-- Performing Test HAVE_CXX17_HAS_INCLUDE
+-- Performing Test HAVE_CXX17_HAS_INCLUDE - Success
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Found Threads: TRUE
+-- Configuring done (7.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/build
+running: "cmake" "--build" "." "--target" "install" "--config" "Debug" "--parallel" "16"
+MSBuild version 17.9.5+33de0b227 for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule C:/Users/smkea/.cargo/registry/src/index.crates.io-6f17d22bba15001f/leveldb-sys-2.0.9/deps/leveldb-1.22/CMakeLists.txt
+  builder.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(833,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out\build\leveldb.vcxproj]
+  (compiling source file '../../../../../../../../../../.cargo/registry/src/index.crates.io-6f17d22bba15001f/leveldb-sys-2.0.9/deps/leveldb-1.22/db/builder.cc')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(833,9):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\version_edit.h(101,46):
+  	see reference to class template instantiation 'std::vector<std::pair<int,leveldb::FileMetaData>,std::allocator<std::pair<int,leveldb::FileMetaData>>>' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(874,23):
+  	while compiling class template member function 'void std::vector<std::pair<int,leveldb::FileMetaData>,std::allocator<std::pair<int,leveldb::FileMetaData>>>::push_back(_Ty &&)'
+          with
+          [
+              _Ty=std::pair<int,leveldb::FileMetaData>
+          ]
+  		C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\version_edit.h(70,25):
+  		see the first reference to 'std::vector<std::pair<int,leveldb::FileMetaData>,std::allocator<std::pair<int,leveldb::FileMetaData>>>::push_back' in 'leveldb::VersionEdit::AddFile'
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(876,9):
+  	see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<std::pair<int,leveldb::FileMetaData>>(std::pair<int,leveldb::FileMetaData> &&)' being compiled
+          with
+          [
+              _Ty=std::pair<int,leveldb::FileMetaData>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(783,17):
+  	see reference to function template instantiation 'std::pair<int,leveldb::FileMetaData> *std::vector<std::pair<int,leveldb::FileMetaData>,std::allocator<std::pair<int,leveldb::FileMetaData>>>::_Emplace_reallocate<_Ty>(std::pair<int,leveldb::FileMetaData> *const ,_Ty &&)' being compiled
+          with
+          [
+              _Ty=std::pair<int,leveldb::FileMetaData>
+          ]
+  
+  c.cc
+  db_impl.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(833,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out\build\leveldb.vcxproj]
+  (compiling source file '../../../../../../../../../../.cargo/registry/src/index.crates.io-6f17d22bba15001f/leveldb-sys-2.0.9/deps/leveldb-1.22/db/db_impl.cc')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(833,9):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\db_impl.cc(1069,26):
+  	see reference to class template instantiation 'std::vector<leveldb::Iterator *,std::allocator<leveldb::Iterator *>>' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(874,23):
+  	while compiling class template member function 'void std::vector<leveldb::Iterator *,std::allocator<leveldb::Iterator *>>::push_back(_Ty &&)'
+          with
+          [
+              _Ty=leveldb::Iterator *
+          ]
+  		C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\db_impl.cc(1070,17):
+  		see the first reference to 'std::vector<leveldb::Iterator *,std::allocator<leveldb::Iterator *>>::push_back' in 'leveldb::DBImpl::NewInternalIterator'
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(876,9):
+  	see reference to function template instantiation '_Ty *&std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<leveldb::Iterator*>(leveldb::Iterator *&&)' being compiled
+          with
+          [
+              _Ty=leveldb::Iterator *
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(783,17):
+  	see reference to function template instantiation 'leveldb::Iterator **std::vector<leveldb::Iterator *,std::allocator<leveldb::Iterator *>>::_Emplace_reallocate<_Ty>(leveldb::Iterator **const ,_Ty &&)' being compiled
+          with
+          [
+              _Ty=leveldb::Iterator *
+          ]
+  
+  db_iter.cc
+  dbformat.cc
+  dumpfile.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(833,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out\build\leveldb.vcxproj]
+  (compiling source file '../../../../../../../../../../.cargo/registry/src/index.crates.io-6f17d22bba15001f/leveldb-sys-2.0.9/deps/leveldb-1.22/db/dumpfile.cc')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(833,9):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\version_edit.h(101,46):
+  	see reference to class template instantiation 'std::vector<std::pair<int,leveldb::FileMetaData>,std::allocator<std::pair<int,leveldb::FileMetaData>>>' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(874,23):
+  	while compiling class template member function 'void std::vector<std::pair<int,leveldb::FileMetaData>,std::allocator<std::pair<int,leveldb::FileMetaData>>>::push_back(_Ty &&)'
+          with
+          [
+              _Ty=std::pair<int,leveldb::FileMetaData>
+          ]
+  		C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\version_edit.h(70,25):
+  		see the first reference to 'std::vector<std::pair<int,leveldb::FileMetaData>,std::allocator<std::pair<int,leveldb::FileMetaData>>>::push_back' in 'leveldb::VersionEdit::AddFile'
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(876,9):
+  	see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<std::pair<int,leveldb::FileMetaData>>(std::pair<int,leveldb::FileMetaData> &&)' being compiled
+          with
+          [
+              _Ty=std::pair<int,leveldb::FileMetaData>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(783,17):
+  	see reference to function template instantiation 'std::pair<int,leveldb::FileMetaData> *std::vector<std::pair<int,leveldb::FileMetaData>,std::allocator<std::pair<int,leveldb::FileMetaData>>>::_Emplace_reallocate<_Ty>(std::pair<int,leveldb::FileMetaData> *const ,_Ty &&)' being compiled
+          with
+          [
+              _Ty=std::pair<int,leveldb::FileMetaData>
+          ]
+  
+  filename.cc
+  log_reader.cc
+  log_writer.cc
+  memtable.cc
+  repair.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(833,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out\build\leveldb.vcxproj]
+  (compiling source file '../../../../../../../../../../.cargo/registry/src/index.crates.io-6f17d22bba15001f/leveldb-sys-2.0.9/deps/leveldb-1.22/db/repair.cc')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(833,9):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\repair.cc(440,26):
+  	see reference to class template instantiation 'std::vector<leveldb::`anonymous-namespace'::Repairer::TableInfo,std::allocator<leveldb::`anonymous-namespace'::Repairer::TableInfo>>' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(870,23):
+  	while compiling class template member function 'void std::vector<leveldb::`anonymous-namespace'::Repairer::TableInfo,std::allocator<leveldb::`anonymous-namespace'::Repairer::TableInfo>>::push_back(const _Ty &)'
+          with
+          [
+              _Ty=leveldb::`anonymous-namespace'::Repairer::TableInfo
+          ]
+  		C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\repair.cc(288,24):
+  		see the first reference to 'std::vector<leveldb::`anonymous-namespace'::Repairer::TableInfo,std::allocator<leveldb::`anonymous-namespace'::Repairer::TableInfo>>::push_back' in 'leveldb::`anonymous-namespace'::Repairer::ScanTable'
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(871,9):
+  	see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<const _Ty&>(const _Ty &)' being compiled
+          with
+          [
+              _Ty=leveldb::`anonymous-namespace'::Repairer::TableInfo
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(783,17):
+  	see reference to function template instantiation 'leveldb::`anonymous-namespace'::Repairer::TableInfo *std::vector<leveldb::`anonymous-namespace'::Repairer::TableInfo,std::allocator<leveldb::`anonymous-namespace'::Repairer::TableInfo>>::_Emplace_reallocate<const _Ty&>(leveldb::`anonymous-namespace'::Repairer::TableInfo *const ,const _Ty &)' being compiled
+          with
+          [
+              _Ty=leveldb::`anonymous-namespace'::Repairer::TableInfo
+          ]
+  
+  table_cache.cc
+  version_edit.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(833,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out\build\leveldb.vcxproj]
+  (compiling source file '../../../../../../../../../../.cargo/registry/src/index.crates.io-6f17d22bba15001f/leveldb-sys-2.0.9/deps/leveldb-1.22/db/version_edit.cc')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(833,9):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\version_edit.h(101,46):
+  	see reference to class template instantiation 'std::vector<std::pair<int,leveldb::FileMetaData>,std::allocator<std::pair<int,leveldb::FileMetaData>>>' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(874,23):
+  	while compiling class template member function 'void std::vector<std::pair<int,leveldb::FileMetaData>,std::allocator<std::pair<int,leveldb::FileMetaData>>>::push_back(_Ty &&)'
+          with
+          [
+              _Ty=std::pair<int,leveldb::FileMetaData>
+          ]
+  		C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\version_edit.h(70,25):
+  		see the first reference to 'std::vector<std::pair<int,leveldb::FileMetaData>,std::allocator<std::pair<int,leveldb::FileMetaData>>>::push_back' in 'leveldb::VersionEdit::AddFile'
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(876,9):
+  	see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<std::pair<int,leveldb::FileMetaData>>(std::pair<int,leveldb::FileMetaData> &&)' being compiled
+          with
+          [
+              _Ty=std::pair<int,leveldb::FileMetaData>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(783,17):
+  	see reference to function template instantiation 'std::pair<int,leveldb::FileMetaData> *std::vector<std::pair<int,leveldb::FileMetaData>,std::allocator<std::pair<int,leveldb::FileMetaData>>>::_Emplace_reallocate<_Ty>(std::pair<int,leveldb::FileMetaData> *const ,_Ty &&)' being compiled
+          with
+          [
+              _Ty=std::pair<int,leveldb::FileMetaData>
+          ]
+  
+  version_set.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(1619,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out\build\leveldb.vcxproj]
+  (compiling source file '../../../../../../../../../../.cargo/registry/src/index.crates.io-6f17d22bba15001f/leveldb-sys-2.0.9/deps/leveldb-1.22/db/version_set.cc')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(1619,9):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\version_set.h(154,30):
+  	see reference to class template instantiation 'std::vector<leveldb::FileMetaData *,std::allocator<leveldb::FileMetaData *>>' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(1685,23):
+  	while compiling class template member function 'void std::vector<leveldb::FileMetaData *,std::allocator<leveldb::FileMetaData *>>::reserve(unsigned __int64)'
+  		C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\version_set.cc(289,14):
+  		see the first reference to 'std::vector<leveldb::FileMetaData *,std::allocator<leveldb::FileMetaData *>>::reserve' in 'leveldb::Version::ForEachOverlapping'
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(1692,13):
+  	see reference to function template instantiation 'void std::vector<leveldb::FileMetaData *,std::allocator<leveldb::FileMetaData *>>::_Reallocate<std::vector<leveldb::FileMetaData *,std::allocator<leveldb::FileMetaData *>>::_Reallocation_policy::_At_least>(unsigned __int64 &)' being compiled
+  
+  write_batch.cc
+  block_builder.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(833,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out\build\leveldb.vcxproj]
+  (compiling source file '../../../../../../../../../../.cargo/registry/src/index.crates.io-6f17d22bba15001f/leveldb-sys-2.0.9/deps/leveldb-1.22/table/block_builder.cc')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(833,9):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\table\block_builder.h(47,25):
+  	see reference to class template instantiation 'std::vector<uint32_t,std::allocator<uint32_t>>' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(874,23):
+  	while compiling class template member function 'void std::vector<uint32_t,std::allocator<uint32_t>>::push_back(_Ty &&)'
+          with
+          [
+              _Ty=uint32_t
+          ]
+  		C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\table\block_builder.cc(44,22):
+  		see the first reference to 'std::vector<uint32_t,std::allocator<uint32_t>>::push_back' in 'leveldb::BlockBuilder::BlockBuilder'
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(876,9):
+  	see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<unsigned int>(unsigned int &&)' being compiled
+          with
+          [
+              _Ty=uint32_t
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(783,17):
+  	see reference to function template instantiation 'unsigned int *std::vector<uint32_t,std::allocator<uint32_t>>::_Emplace_reallocate<_Ty>(unsigned int *const ,_Ty &&)' being compiled
+          with
+          [
+              _Ty=unsigned int
+          ]
+  
+  block.cc
+  filter_block.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(833,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out\build\leveldb.vcxproj]
+  (compiling source file '../../../../../../../../../../.cargo/registry/src/index.crates.io-6f17d22bba15001f/leveldb-sys-2.0.9/deps/leveldb-1.22/table/filter_block.cc')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(833,9):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\table\filter_block.h(50,25):
+  	see reference to class template instantiation 'std::vector<uint32_t,std::allocator<uint32_t>>' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(874,23):
+  	while compiling class template member function 'void std::vector<uint32_t,std::allocator<uint32_t>>::push_back(_Ty &&)'
+          with
+          [
+              _Ty=uint32_t
+          ]
+  		C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\table\filter_block.cc(55,30):
+  		see the first reference to 'std::vector<uint32_t,std::allocator<uint32_t>>::push_back' in 'leveldb::FilterBlockBuilder::GenerateFilter'
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(876,9):
+  	see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<unsigned int>(unsigned int &&)' being compiled
+          with
+          [
+              _Ty=uint32_t
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(783,17):
+  	see reference to function template instantiation 'unsigned int *std::vector<uint32_t,std::allocator<uint32_t>>::_Emplace_reallocate<_Ty>(unsigned int *const ,_Ty &&)' being compiled
+          with
+          [
+              _Ty=unsigned int
+          ]
+  
+  format.cc
+  iterator.cc
+  Generating Code...
+  Compiling...
+  merger.cc
+  table_builder.cc
+  table.cc
+  two_level_iterator.cc
+  arena.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(833,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out\build\leveldb.vcxproj]
+  (compiling source file '../../../../../../../../../../.cargo/registry/src/index.crates.io-6f17d22bba15001f/leveldb-sys-2.0.9/deps/leveldb-1.22/util/arena.cc')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(833,9):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\arena.h(46,22):
+  	see reference to class template instantiation 'std::vector<char *,std::allocator<char *>>' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(870,23):
+  	while compiling class template member function 'void std::vector<char *,std::allocator<char *>>::push_back(const _Ty &)'
+          with
+          [
+              _Ty=char *
+          ]
+  		C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\arena.cc(60,20):
+  		see the first reference to 'std::vector<char *,std::allocator<char *>>::push_back' in 'leveldb::Arena::AllocateNewBlock'
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(871,9):
+  	see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<const _Ty&>(const _Ty &)' being compiled
+          with
+          [
+              _Ty=char *
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(783,17):
+  	see reference to function template instantiation 'char **std::vector<char *,std::allocator<char *>>::_Emplace_reallocate<const _Ty&>(char **const ,const _Ty &)' being compiled
+          with
+          [
+              _Ty=char *
+          ]
+  
+  bloom.cc
+  cache.cc
+  coding.cc
+  comparator.cc
+  crc32c.cc
+  env.cc
+  filter_policy.cc
+  hash.cc
+  logging.cc
+  options.cc
+  status.cc
+  env_windows.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(779,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out\build\leveldb.vcxproj]
+  (compiling source file '../../../../../../../../../../.cargo/registry/src/index.crates.io-6f17d22bba15001f/leveldb-sys-2.0.9/deps/leveldb-1.22/util/env_windows.cc')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(779,9):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\env_windows.cc(592,8):
+  	see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)' being compiled
+  
+  memenv.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(833,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out\build\leveldb.vcxproj]
+  (compiling source file '../../../../../../../../../../.cargo/registry/src/index.crates.io-6f17d22bba15001f/leveldb-sys-2.0.9/deps/leveldb-1.22/helpers/memenv/memenv.cc')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(833,9):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\helpers\memenv\memenv.cc(299,5):
+  	see reference to class template instantiation 'std::vector<std::string,std::allocator<std::string>>' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(874,23):
+  	while compiling class template member function 'void std::vector<std::string,std::allocator<std::string>>::push_back(_Ty &&)'
+          with
+          [
+              _Ty=std::string
+          ]
+  		C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\helpers\memenv\memenv.cc(307,26):
+  		see the first reference to 'std::vector<std::string,std::allocator<std::string>>::push_back' in 'leveldb::`anonymous-namespace'::InMemoryEnv::GetChildren'
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(876,9):
+  	see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&)' being compiled
+          with
+          [
+              _Ty=std::string
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(783,17):
+  	see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> *std::vector<std::string,std::allocator<std::string>>::_Emplace_reallocate<_Ty>(std::basic_string<char,std::char_traits<char>,std::allocator<char>> *const ,_Ty &&)' being compiled
+          with
+          [
+              _Ty=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+          ]
+  
+  Generating Code...
+C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\env_windows.cc(358,1): warning C4722: 'leveldb::`anonymous namespace'::WindowsEnv::~WindowsEnv': destructor never returns, potential memory leak [C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out\build\leveldb.vcxproj]
+  leveldb.vcxproj -> C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out\build\Debug\leveldb.lib
+  Building Custom Rule C:/Users/smkea/.cargo/registry/src/index.crates.io-6f17d22bba15001f/leveldb-sys-2.0.9/deps/leveldb-1.22/CMakeLists.txt
+  leveldbutil.cc
+  leveldbutil.vcxproj -> C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out\build\Debug\leveldbutil.exe
+  Building Custom Rule C:/Users/smkea/.cargo/registry/src/index.crates.io-6f17d22bba15001f/leveldb-sys-2.0.9/deps/leveldb-1.22/CMakeLists.txt
+  1>
+  -- Install configuration: "Debug"
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/lib/leveldb.lib
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/include/leveldb/c.h
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/include/leveldb/cache.h
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/include/leveldb/comparator.h
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/include/leveldb/db.h
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/include/leveldb/dumpfile.h
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/include/leveldb/env.h
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/include/leveldb/export.h
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/include/leveldb/filter_policy.h
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/include/leveldb/iterator.h
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/include/leveldb/options.h
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/include/leveldb/slice.h
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/include/leveldb/status.h
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/include/leveldb/table_builder.h
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/include/leveldb/table.h
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/include/leveldb/write_batch.h
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/lib/cmake/leveldb/leveldbTargets.cmake
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/lib/cmake/leveldb/leveldbTargets-debug.cmake
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/lib/cmake/leveldb/leveldbConfig.cmake
+  -- Installing: C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/lib/cmake/leveldb/leveldbConfigVersion.cmake
+cargo:root=C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out
+cargo:rustc-link-search=native=C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out\lib
+cargo:rustc-link-lib=static=leveldb
+[build] Finished

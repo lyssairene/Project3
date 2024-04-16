@@ -1,0 +1,10 @@
+^C:\USERS\SMKEA\DOCUMENTS\GITHUB\PROJECT3\P3\TARGET\DEBUG\BUILD\LEVELDB-SYS-86D35449EBDC5F16\OUT\BUILD\CMAKEFILES\1A6F3AFAAE1B7754E504A32CB96FEE4C\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

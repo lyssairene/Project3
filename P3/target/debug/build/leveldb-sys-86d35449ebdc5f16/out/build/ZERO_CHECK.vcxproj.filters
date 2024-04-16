@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out\build\CMakeFiles\1a6f3afaae1b7754e504a32cb96fee4c\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2B72837C-8D65-3158-9E82-49F46736648A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

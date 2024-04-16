@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\builder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\c.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\db_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\db_iter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\dbformat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\dumpfile.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\filename.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\log_reader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\log_writer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\memtable.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\repair.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\table_cache.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\version_edit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\version_set.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\write_batch.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\table\block_builder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\table\block.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\table\filter_block.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\table\format.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\table\iterator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\table\merger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\table\table_builder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\table\table.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\table\two_level_iterator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\arena.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\bloom.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\cache.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\coding.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\comparator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\crc32c.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\env.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\filter_policy.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\hash.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\logging.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\options.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\status.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\env_windows.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\helpers\memenv\memenv.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\build\leveldb-sys-86d35449ebdc5f16\out\build\include\port\port_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\builder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\db_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\db_iter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\dbformat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\filename.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\log_format.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\log_reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\log_writer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\memtable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\skiplist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\snapshot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\table_cache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\version_edit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\version_set.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\db\write_batch_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\port\port_stdcxx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\port\port.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\port\thread_annotations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\table\block_builder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\table\block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\table\filter_block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\table\format.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\table\iterator_wrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\table\merger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\table\two_level_iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\arena.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\coding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\crc32c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\mutexlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\no_destructor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\include\leveldb\c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\include\leveldb\cache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\include\leveldb\comparator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\include\leveldb\db.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\include\leveldb\dumpfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\include\leveldb\env.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\include\leveldb\export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\include\leveldb\filter_policy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\include\leveldb\iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\include\leveldb\options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\include\leveldb\slice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\include\leveldb\status.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\include\leveldb\table_builder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\include\leveldb\table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\include\leveldb\write_batch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\util\windows_logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\helpers\memenv\memenv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\leveldb-sys-2.0.9\deps\leveldb-1.22\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{96C1E944-45E7-32E0-8B76-EB9A02DA2A33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{47493B57-4DFF-3CC0-B82E-EEFB0F7F6879}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

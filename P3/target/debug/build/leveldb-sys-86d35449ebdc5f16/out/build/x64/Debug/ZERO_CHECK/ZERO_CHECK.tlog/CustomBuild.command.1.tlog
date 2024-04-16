@@ -1,0 +1,10 @@
+^C:\USERS\SMKEA\DOCUMENTS\GITHUB\PROJECT3\P3\TARGET\DEBUG\BUILD\LEVELDB-SYS-86D35449EBDC5F16\OUT\BUILD\CMAKEFILES\1A6F3AFAAE1B7754E504A32CB96FEE4C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/smkea/.cargo/registry/src/index.crates.io-6f17d22bba15001f/leveldb-sys-2.0.9/deps/leveldb-1.22 -BC:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/smkea/Documents/GitHub/Project3/P3/target/debug/build/leveldb-sys-86d35449ebdc5f16/out/build/leveldb.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
