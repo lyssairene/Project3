@@ -2,9 +2,9 @@ use std::fs::File;
 use std::io::{self, Read};
 use aes::cipher::KeyInit;
 use aes::Aes256;
-use aes::block_cipher_trait::{BlockCipher, generic_array::GenericArray};
+use aes::cipher::generic_array::GenericArray;
 use aes::cipher::BlockDecrypt;
-use reqwest::blocking::Client;
+use reqwest::Client;
 use reqwest::StatusCode;
 use serde_json::json;
 
@@ -31,7 +31,7 @@ fn decrypt_file(encrypted_data: &[u8], key: &[u8]) -> Vec<u8> {
 }
 
 
-fn send_contents(decrypted_data: Vec<u8>, server_url: &str, parsed_secret: &[u8], github_link: &str) -> Result<(), reqwest::Error> {
+pub fn send_contents(decrypted_data: Vec<u8>, server_url: &str, parsed_secret: &[u8], github_link: &str) -> Result<(), reqwest::Error> {
     let client = Client::new();
     let json_body = json!({
         "message": parsed_secret,
