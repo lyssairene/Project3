@@ -1,0 +1,11 @@
+C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\deps\libtower_layer-0ef45c758cfce96d.rmeta: C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tower-layer-0.3.2\src\lib.rs C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tower-layer-0.3.2\src\identity.rs C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tower-layer-0.3.2\src\layer_fn.rs C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tower-layer-0.3.2\src\stack.rs C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tower-layer-0.3.2\src\tuple.rs
+
+C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\deps\libtower_layer-0ef45c758cfce96d.rlib: C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tower-layer-0.3.2\src\lib.rs C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tower-layer-0.3.2\src\identity.rs C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tower-layer-0.3.2\src\layer_fn.rs C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tower-layer-0.3.2\src\stack.rs C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tower-layer-0.3.2\src\tuple.rs
+
+C:\Users\smkea\Documents\GitHub\Project3\P3\target\debug\deps\tower_layer-0ef45c758cfce96d.d: C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tower-layer-0.3.2\src\lib.rs C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tower-layer-0.3.2\src\identity.rs C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tower-layer-0.3.2\src\layer_fn.rs C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tower-layer-0.3.2\src\stack.rs C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tower-layer-0.3.2\src\tuple.rs
+
+C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tower-layer-0.3.2\src\lib.rs:
+C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tower-layer-0.3.2\src\identity.rs:
+C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tower-layer-0.3.2\src\layer_fn.rs:
+C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tower-layer-0.3.2\src\stack.rs:
+C:\Users\smkea\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tower-layer-0.3.2\src\tuple.rs:
