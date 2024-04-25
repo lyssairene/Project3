@@ -1,6 +1,7 @@
-use P3::*;
-std::io::BufReader;
 use std::fs::File;
+use std::io::BufReader;
+use P3::*;
+
 #[tokio::main]
 async fn main() {
     let file_path = "secret_file.txt";
